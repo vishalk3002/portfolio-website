@@ -36,25 +36,72 @@ function Projects() {
         </div>
       </div>
 
-      {/* Project 2 */}
-      <div className="border border-gray-600 p-4">
-        <h3 className="text-xl font-semibold mb-2">Shoe Store</h3>
-        <p className="text-gray-400">
-          React UI with API integration and dynamic product listing.
+      {/* Project 3 */}
+      <div className="border border-gray-600 p-4 rounded-lg">
+        <h3 className="text-xl font-semibold mb-2">
+          ATS Resume Builder | Full Stack Web Application
+        </h3>
+
+        <p className="text-gray-400 mb-3">
+          Built a modern ATS-optimized Resume Builder that enables users to
+          create, edit, and manage professional resumes through a clean and
+          responsive interface. Designed with a full-stack architecture using
+          Next.js, TypeScript, PostgreSQL, and Supabase for scalable data
+          management and real-time updates.
         </p>
 
-        <div className="mt-3 space-x-4">
+        <div className="flex flex-wrap gap-2 mb-4">
+          <span className="px-2 py-1 text-sm border border-gray-500 rounded">
+            Next.js
+          </span>
+          <span className="px-2 py-1 text-sm border border-gray-500 rounded">
+            TypeScript
+          </span>
+          <span className="px-2 py-1 text-sm border border-gray-500 rounded">
+            PostgreSQL
+          </span>
+          <span className="px-2 py-1 text-sm border border-gray-500 rounded">
+            Supabase
+          </span>
+          <span className="px-2 py-1 text-sm border border-gray-500 rounded">
+            Tailwind CSS
+          </span>
+        </div>
+
+        <ul className="list-disc list-inside text-gray-400 mb-4 space-y-1">
+          <li>ATS-friendly resume creation and management.</li>
+          <li>PostgreSQL database integration via Supabase.</li>
+          <li>Type-safe full-stack development with TypeScript.</li>
+          <li>Responsive UI optimized for desktop and mobile.</li>
+          <li>Production deployment on Vercel.</li>
+        </ul>
+
+        <div className="flex gap-4">
           <a
-            href="https://github.com/vishalk3002/shoe-store-vk"
+            href="https://github.com/vishalk3002/ats-resume-builder"
+            target="_blank"
+            rel="noopener noreferrer"
             className="underline"
           >
             GitHub
           </a>
+
           <a
-            href="https://shoe-store-reactjs.vercel.app/"
+            href="https://vishalk3002-my-ats.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
             className="underline"
           >
-            Live
+            Live Demo
+          </a>
+
+          <a
+            href="https://www.youtube.com/watch?v=cOQUzKhY648"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            Video Demo
           </a>
         </div>
       </div>
