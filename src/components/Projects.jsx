@@ -36,8 +36,31 @@ function Projects() {
         </div>
       </div>
 
+      {/* Project 2 */}
+      <div className="border border-gray-600 p-4 mb-6">
+        <h3 className="text-xl font-semibold mb-2">Shoe Store</h3>
+        <p className="text-gray-400">
+          React UI with API integration and dynamic product listing.
+        </p>
+
+        <div className="mt-3 space-x-4">
+          <a
+            href="https://github.com/vishalk3002/shoe-store-vk"
+            className="underline"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://shoe-store-reactjs.vercel.app/"
+            className="underline"
+          >
+            Live
+          </a>
+        </div>
+      </div>
+
       {/* Project 3 */}
-      <div className="border border-gray-600 p-4 rounded-lg">
+      <div className="border border-gray-600 p-4 rounded-lg mb-6">
         <h3 className="text-xl font-semibold mb-2">
           ATS Resume Builder | Full Stack Web Application
         </h3>
